@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #EEEEED;
+    font-family:  'Segoe UI';
+    font-size: 21px;
+    
+
+}
+
+body{
+    background-image: url(../background3.png);
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../maxresdefault.jpg);*/    
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    
+    
+}
+
+
+.site-navigation{
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.contact{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    width: 200px;
+    height: 72px;
+    background-color: #1F1E1E;
+    border-radius: 80px;
+    padding: 0 18px;
+    will-change: transform;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    
+/*     
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease; */
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+  
+}
+
+.socButton{
+    border: none;
+    padding: 0;
+    background: none;
+    
+}
+
+
+/* body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    background-color: #FEFEFE;
+} */
+
+i {
+    opacity: 0;
+    font-size: 28px;
+    color: #1F1E1E;
+    will-change: transform;
+    -webkit-transform: scale(.1);
+            transform: scale(.1);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn_wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    width: 200px;
+    height: 72px;
+    background-color: #EEEEED;
+    border-radius: 80px;
+    padding: 0 24px;
+    will-change: transform;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.contact{
+    margin-right: 10px;
+
+}
+.btn_wrap:hover {
+    /* transition-delay: .4s; */
+    
+}
+
+span {
+    float: right;
+    position: absolute;
+    z-index: 99;
+    width: 240px;
+    height: 72px;
+    border-radius: 80px;
+    font-family: 'Segoe UI';
+    font-size: 21px;
+    text-align: center;
+    line-height: 70px;
+    color: #EEEEED;
+    background-color: #1F1E1E;
+    padding: 0 18px;
+    -webkit-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 240px;
+    height: 64px;
+    border-radius: 80px;
+}
+
+
+
+.btn_wrap:hover span {
+    -webkit-transition-delay: .25s;
+            transition-delay: .25s;
+    -webkit-transform: translateX(-280px);
+            transform: translateX(-280px)
+}
+
+.btn_wrap:hover i {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+
+.dr {
+position: absolute;
+  bottom: 20px; 
+  right: 20px;
+  width: 100px;
+}
+
+h1{
+    
+    text-indent: 50px;
+    font-size: 50px;
+    
+    color: white
+    
+
+}
+
+
+
+.main-header {
+    margin-left: 100px;
+   transform: translateX(00px) translateY(225px) translateZ(0px);
+   color: #1F1E1E;
+   text-align: left;
+   
+    
+}
+
+
+

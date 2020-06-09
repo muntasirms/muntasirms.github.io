@@ -1,0 +1,80 @@
+<!-- Functionality to add: Discord id copy on click, linkedin, maybe link to resume, add icons from awesome icons: https://webflow.com/blog/design-portfolio-examples number 2 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muntasir Shahabuddin - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <script src="https://kit.fontawesome.com/4c909c1f82.js" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+
+</head>
+<body>
+
+    
+   
+    
+
+    <header>
+        <div class="main">
+            <ul class = "site-navigation">
+                <li><a href="index.html", style = "text-decoration: none;">Home</a></li>
+        
+                <li><a href="Projects.html", style = "text-decoration: none;">Projects</a></li>
+        
+                <li><a href="About.html", style = "text-decoration: none;">About</a></li>
+    
+            </ul>
+            <ul class='contact'>
+                
+        
+                <li><div class="btn_wrap">
+                    <span>Contact</span>
+                    <div class="container">
+                    
+                        <button class="socButton" onclick="copyToClipboard('muntasirms#0579');myalert('Discord ID copied!')";> <i class="fab fa-discord"></i></button>
+                        <button class="socButton" onclick=window.open('https://www.linkedin.com/in/muntasir-shahabuddin-b97854170/'); return false> <i class="fab fa-linkedin"></i></button>
+                        <button class="socButton" onclick=window.open('https://github.com/muntasirms'); return false> <i class="fab fa-github"></i></button>
+                        <button class="socButton" onclick= "copyToClipboard('muntasirms@gmail.com');myalert('Email address copied!')"; return false> <i class="fas fa-envelope"></i></button>
+                
+                    </div>
+                </div></li>
+            
+           
+            
+            </div>
+            </ul>
+                
+                
+            
+        </div>
+        
+        
+        
+        
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+    
+
+    <div class = "paragraph">
+        <b>
+        <p class="main-header">Hey, I'm Muntasir.</p>
+            <br>
+        <p class = "main-header" id = "epithets" style = "font-size: 55px;">Engineer. Student of life.</p>
+            <br>
+        <p class = "main-header">A chemical engineer by degree, I find my calling in power generation and renewables.<br> Take a look around to <a class = "project-link" href= "../PortfolioSite/Projects.html" style = "color: blueviolet;"> see some of my work</a> or <a class = "project-link" href= "../PortfolioSite/About.html" style = "color: blueviolet;"> learn more about me.</a> </p>
+
+    </b>
+        
+    </div>
+    
+   
+
+</body>
+
+
+</html>

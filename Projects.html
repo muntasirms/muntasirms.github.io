@@ -1,0 +1,128 @@
+<!-- Functionality to add: Discord id copy on click, linkedin, maybe link to resume, add icons from awesome icons: https://webflow.com/blog/design-portfolio-examples number 2 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muntasir Shahabuddin - Projects</title>
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="css/Projects.css">
+    <script src="https://kit.fontawesome.com/4c909c1f82.js" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+
+</head>
+<body>
+
+    
+   
+    
+
+    <header>
+        <div class="main">
+            <ul class = "site-navigation">
+                <li><a href="index.html", style = "text-decoration: none;">Home</a></li>
+        
+                <li><a href="Projects.html", style = "text-decoration: none;">Projects</a></li>
+        
+                <li><a href="About.html", style = "text-decoration: none;">About</a></li>
+    
+            </ul>
+            <ul class='contact'>
+                
+        
+                <li><div class="btn_wrap">
+                    <span>Contact</span>
+                    <div class="container">
+                    
+                        <button class="socButton" onclick="copyToClipboard('muntasirms#0579');myalert('Discord ID copied!')";> <i class="fab fa-discord"></i></button>
+                        <button class="socButton" onclick=window.open('https://www.linkedin.com/in/muntasir-shahabuddin-b97854170/'); return false> <i class="fab fa-linkedin"></i></button>
+                        <button class="socButton" onclick=window.open('https://github.com/muntasirms'); return false> <i class="fab fa-github"></i></button>
+                        <button class="socButton" onclick= "copyToClipboard('muntasirms@gmail.com');myalert('Email address copied!')"; return false> <i class="fas fa-envelope"></i></button>
+                
+                    </div>
+                </div></li>
+            
+           
+            
+            </div>
+            </ul>
+                
+                
+            
+        </div>
+        
+        
+        
+        
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+    <b><p id ="project-header" class = "main-header" style = "font-size: 55px;">From smart glasses to <br> techno-economic analysis tools.</p></b>
+    <br>
+    <b><p id = "project-header" class = "main-header">Whether it's global warming, or being too lazy to water the garden, the world has a lot of problems. <br> Here are some of my solutions.</p></b>
+    
+    
+
+    <div class = "projects">
+    
+        <div class = "projects-intro">
+            <p class = "project-title" style = "font-size: 50px">Scroll to take a look at some of my work.</p>
+            
+            <!-- image here -->
+        </div>
+
+        <div id = "project1" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Thermal Energy Storage Modeling</p>
+                <p class = "project-description">An economic viability analysis of a thermal energy storage unit with 1000MWh of effective storage. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/IQP Thermal Storage/IQPImage1.JPG" width = "100%">
+            </div>
+            
+        </div>
+
+        <div id = "project2" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Monte Carlo Business Viability Tool</p>
+                <p class = "project-description">A statistical tool to account for the myriad uncertainties involved in calculating business profits.<br> For determining viability of a new business, and to see how your business will perform under variable conditions. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/Monte Carlo Web App/MonteCarloImage.png" width = "100%">
+            </div>
+            
+        </div>
+        <div id = "project3" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Modular Smart Glasses</p>
+                <p class = "project-description">Glasses with modular temples: functionality ranges from heads-up lighting to bluetooth bone conduction headphones. All fit into your usual pair of glasses. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/Smart Glasses/IMG_20200608_213520__01.jpg" width = "100%">
+            </div>
+            
+        </div>
+    </div>
+    
+    
+   
+
+</body>
+
+
+</html>
+
