@@ -5,6 +5,7 @@
 <head>
     <title>Muntasir Shahabuddin - Home</title>
     <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="css/Projects.css">
     <script src="https://kit.fontawesome.com/4c909c1f82.js" crossorigin="anonymous"></script>
     <script src = "js/script.js"></script>
 
@@ -15,14 +16,14 @@
    
     
 
-    <header>
+    <header id = "nav-bar">
         <div class="main">
             <ul class = "site-navigation">
-                <li><a href="index.html", style = "text-decoration: none;">Home</a></li>
+                <li><a href="#top", style = "text-decoration: none;">Home</a></li>
         
-                <li><a href="Projects.html", style = "text-decoration: none;">Projects</a></li>
+                <li><a href="#projects-intro", style = "text-decoration: none;">Projects</a></li>
         
-                <li><a href="About.html", style = "text-decoration: none;">About</a></li>
+                <li><a href="#projects-outro", style = "text-decoration: none;">About</a></li>
     
             </ul>
             <ul class='contact'>
@@ -62,17 +63,128 @@
 
     <div class = "paragraph">
         <b>
-        <p class="main-header">Hey, I'm Muntasir.</p>
+        <p class="main-header" style = "font-size: 45px;">Hey, I'm Muntasir.</p>
             <br>
-        <p class = "main-header" id = "epithets" style = "font-size: 55px;">Engineer. Student of life.</p>
+        <p class = "main-header" id = "epithets" style = "font-size: 55px;">Engineer. Blonde bimbo.</p>
             <br>
-        <p class = "main-header">A chemical engineer by degree, I find my calling in power generation and renewables.<br> Take a look around to <a class = "project-link" href= "Projects.html" style = "color: blueviolet;"> see some of my work</a> or <a class = "project-link" href= "About.html" style = "color: blueviolet;"> learn more about me.</a> </p>
+        <p class = "main-header">A chemical engineer based in Massachusetts, I find my calling in power generation and renewables.<br> Take a look around to <a class = "project-link" href= "#projects-intro" style = "color: blueviolet;"> see some of my work</a> or <a class = "project-link" href= "#projects-outro" style = "color: blueviolet;"> learn more about me.</a> </p>
 
     </b>
         
     </div>
+    <div id = "projects-intro" class = "projects">
+    
+        <div class = "projects-intro">
+            <p class = "project-title" style = "font-size: 50px"> <br> <br>From smart glasses to
+                techno-economic analysis tools.</p>
+            <p class = "project-description">Whether it's global warming, or being too lazy to water the garden, the world has a lot of problems. <br>
+                Here are some of my solutions.</p>   
+            
+            <!-- image here -->
+        </div>
+
+        <div id = "project1" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Thermal Energy Storage Modeling</p>
+                <p class = "project-description">An economic viability analysis of a thermal energy storage unit with 1000MWh of effective storage. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/IQP Thermal Storage/IQPImage1.JPG" width = "100%">
+            </div>
+            
+        </div>
+
+        <div id = "project2" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Monte Carlo Business Viability Tool</p>
+                <p class = "project-description">A statistical tool to account for the myriad uncertainties involved in calculating business profits.<br> For determining viability of a new business, and to see how your business will perform under variable conditions. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/Monte Carlo Web App/MonteCarloImage.png" width = "100%">
+            </div>
+            
+        </div>
+        <div id = "project3" class = "project">
+            
+            <div class = project-paragraph>
+                <p class = "project-title" style = "font-size: 50px">Modular Smart Glasses</p>
+                <p class = "project-description">Glasses with modular temples: functionality ranges from heads-up lighting to bluetooth bone conduction headphones. All fit into your usual pair of glasses. <br> <a class = "project-link" href= "#" >Learn More</a></p>
+                
+            </div>
+            
+
+            <div class = "image-container">
+                <img src= "Projects/Smart Glasses/IMG_20200608_213520__01.jpg" width = "100%">
+            </div>
+            
+        </div>
+
+        
+    </div>
     
    
+    
+    
+
+    <div id = "about" class = "paragraph">
+        <div id = "projects-outro" class = "projects-outro">
+            <p class = "project-title" style = "font-size: 50px"></p>
+            <p class = "project-description"></p>   
+            <div class="main" style = "margin-top: 20px;">
+                <ul class = "site-navigation">
+                    <li><a href="#top", style = "text-decoration: none;">Home</a></li>
+            
+                    <li><a href="#projects-intro", style = "text-decoration: none;">Projects</a></li>
+            
+                    <li><a href="#projects-outro", style = "text-decoration: none;">About</a></li>
+        
+                </ul>
+                <ul class='contact'>
+                    
+            
+                    <li><div class="btn_wrap">
+                        <span>Contact</span>
+                        <div class="container">
+                        
+                            <button class="socButton" onclick="copyToClipboard('muntasirms#0579');myalert('Discord ID copied!')";> <i class="fab fa-discord"></i></button>
+                            <button class="socButton" onclick=window.open('https://www.linkedin.com/in/muntasir-shahabuddin-b97854170/'); return false> <i class="fab fa-linkedin"></i></button>
+                            <button class="socButton" onclick=window.open('https://github.com/muntasirms'); return false> <i class="fab fa-github"></i></button>
+                            <button class="socButton" onclick= "copyToClipboard('muntasirms@gmail.com');myalert('Email address copied!')"; return false> <i class="fas fa-envelope"></i></button>
+                    
+                        </div>
+                    </div></li>
+                
+               
+                
+                </div>
+                </ul>
+                    
+                    
+                
+            </div>
+            
+            <!-- image here -->
+        </div>
+        <b>
+        <p class = "about-header" id = "epithets" style = "font-size: 55px;">I strive to see a sustainable future.</p>
+        </b>
+            <br>
+        <p class = "about-header" style = "margin-bottom: 320px">Hey again! I'm Muntasir Shahabuddin. <br><br> I'm a student at Worcester Polytechnic Institute, studying chemical engineering with a concentration in energy. <br><br> 
+            While my professional experience had me working with small-scale pharmaceuticals, <br> I hope to find myself improving how we use and generate our energy. <br><br> 
+            My current work revolves around viability of alternative fuels, particularly in determining <br> the economic viability of food waste conversion to biofuel. <br><br>
+            I also make a damn good carrot cake.</p>
+
+    
+        
+    </div>
 
 </body>
 

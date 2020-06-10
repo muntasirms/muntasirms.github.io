@@ -1,12 +1,25 @@
+@font-face {
+    font-family: 'Selawik Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Selawik Regular'), url('../font/selawk.woff') format('woff');
+}
+
 *{
     margin: 0;
     padding: 0;
     color: #EEEEED;
-    font-family:  'Segoe UI';
+    font-family:  'Selawik Regular';
     font-size: 21px;
     
 
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 
 body{
     background-image: url(../background3.png);
@@ -19,6 +32,9 @@ body{
     
 }
 
+.nav-bar{
+    position: fixed;
+}
 
 .site-navigation{
     float: left;
@@ -32,6 +48,7 @@ body{
     float: right;
     list-style-type: none;
     margin-top: 10px;
+    
 }
 ul li{
     display: inline-block;
@@ -71,7 +88,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #fff;
+    background-color:rgb(233, 233, 232);
     color:#000;
   
 }
@@ -101,7 +118,7 @@ ul li a:hover{
 i {
     opacity: 0;
     font-size: 28px;
-    color: #1F1E1E;
+    color: rgb(54, 54, 54);
     will-change: transform;
     -webkit-transform: scale(.1);
             transform: scale(.1);
@@ -124,12 +141,12 @@ i {
     cursor: pointer;
     width: 200px;
     height: 72px;
-    background-color: #EEEEED;
+    background-color: rgb(233, 233, 232);
     border-radius: 80px;
     padding: 0 24px;
     will-change: transform;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .contact{
@@ -155,8 +172,8 @@ span {
     color: #EEEEED;
     background-color: #1F1E1E;
     padding: 0 18px;
-    -webkit-transition: all 1.2s ease;
-    transition: all 1.2s ease;
+    /* -webkit-transition: all .1s ease; */
+    transition: all .8s ease;
 }
 
 .container {
@@ -176,8 +193,8 @@ span {
 
 
 .btn_wrap:hover span {
-    -webkit-transition-delay: .25s;
-            transition-delay: .25s;
+    -webkit-transition-delay: .15s;
+            transition-delay: .15s;
     -webkit-transform: translateX(-280px);
             transform: translateX(-280px)
 }
@@ -210,11 +227,20 @@ h1{
 
 .main-header {
     margin-left: 100px;
-   transform: translateX(00px) translateY(225px) translateZ(0px);
+   transform: translateX(00px) translateY(165px) translateZ(0px);
    color: #1F1E1E;
+   text-shadow: 2px 2px 2px #e2e2e2;
    text-align: left;
    
     
+}
+
+.about-header {
+    margin-left: 100px;
+    transform: translateX(00px) translateY(45px) translateZ(0px);
+    color: #1F1E1E;
+    text-shadow: 2px 2px 2px #e2e2e2;
+    text-align: left;
 }
 
 
