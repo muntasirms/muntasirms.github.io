@@ -243,5 +243,14 @@ h1{
     text-align: left;
 }
 
+.main-intro{
+
+   transform: translateX(-625px) translateY(185px) translateZ(0px);
+   color: #1F1E1E;
+   text-shadow: 2px 2px 2px #e2e2e2;
+   text-align: left;
+   width: 100%;
+   
+}
 
 
